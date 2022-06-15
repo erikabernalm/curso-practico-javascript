@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto: matemáticas con JavaScript</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calcula la altura de un triángulo isósceles</h1>
+    </header>
+    <section>
+      <h2>Escribe las medidas de tu triángulo:</h2>
+      <form action="/">
+        <label for="inputTrianguloIsosLado1"> 
+          Lado 1: 
+        </label>
+        <input id="inputTrianguloIsosLado1" type="number" />
+        <label for="inputTrianguloIsosLado2">
+          Lado 2: 
+        </label>
+        <input id="inputTrianguloIsosLado2" type="number" />
+        <label for="inputTrianguloIsosBase"> 
+          Base: 
+        </label>
+        <input id="inputTrianguloIsosBase" type="number" />
+        <button type="button" onclick="calcularAlturaTrianguloIsos()">
+          Calcular la altura
+        </button>
+      </form>
+    </section>
+    <script src="./triangulo-isosceles.js"></script>
+  </body>
+</html>
